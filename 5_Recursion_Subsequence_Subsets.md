@@ -1,7 +1,7 @@
 # Subsequence or Subarray using Recursion
 
 - Subsequenece is a sequence which can be derived by removing 0 or more elements, without changing the original order of the string. If the string is `abcd` then `abd`, `acd`, `ab` can be subsequence.
-- If we have string, then this would be `subsequence` and if we have array or set, then this would be `subarray`.
+- If we have string, then this would be `subsequence` and if we have array or set, then this would be `subsets`.
 
 - Subsequence is kind of superset of `substring` or `subarray`.
 - **Substring / Subarray** :
@@ -32,6 +32,7 @@ heper(s, tempAns, ind):
     ## don't include current element
     helper(s, tempAns, index+1)
 
+s = "abcdefg"
 ## main calling function
 print(helper(s, "", 0))
 ```
