@@ -21,7 +21,7 @@
 ## Code
 
 ```python
-heper(s, tempAns, ind):
+def helper(s, tempAns, ind):
     ## base case
     if len(s) == ind :
         print(tempAns, " ")

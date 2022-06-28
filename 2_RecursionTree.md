@@ -42,7 +42,7 @@ This is how we can break down this problem.
 #### Code
 
 ```python
-fun(n):
+def fun(n):
     if n == 1:
         return 2
 
@@ -96,7 +96,7 @@ f(1) f(0)
 ### Code
 
 ```python
-f(n):
+def f(n):
   if n == 0:
     return 0
   if n == 1:

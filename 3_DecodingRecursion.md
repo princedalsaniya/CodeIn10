@@ -51,7 +51,7 @@ But the only difference here is of **Base Case**. There base case was of `n=1,0`
 ## Code
 
 ```python
-func(n):
+def func(n):
     ## Base Case
     if n==1 or n==2:
         return n

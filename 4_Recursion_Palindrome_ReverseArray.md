@@ -27,7 +27,7 @@ Same as above we will start with `l` and `r`. Increase l and decrease r if `str[
 ### Code 
 
 ```python
-func(s, l, r): 
+def func(s, l, r): 
 
     if s[l] >= s[r]:
         return true
@@ -70,7 +70,7 @@ index 0                         ans = [7,5,4,2]
 ### Code
 
 ```python
-func(arr, ans, i):
+def func(arr, ans, i):
     
     ## i = currunt index.
 

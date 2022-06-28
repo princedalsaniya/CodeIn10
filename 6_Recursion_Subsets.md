@@ -14,7 +14,7 @@
 ## Code
 
 ```python
-heper(arr, tempAns, ind):
+def helper(arr, tempAns, ind):
     ## base case
     if len(arr) == ind :
         print(tempAns, " ")

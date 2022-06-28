@@ -29,7 +29,7 @@ So, we can break this problem into small task. Like,
 ### Code For this Problem
 
 ```python
-nSum(n):
+def nSum(n):
   ## Base Case
   if n==1: 
     return 1
@@ -41,4 +41,6 @@ nSum(n):
   ans = n + prevSum
  
   return ans
+
+print(nSum(5))
 ```
