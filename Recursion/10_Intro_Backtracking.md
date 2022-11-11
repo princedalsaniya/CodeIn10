@@ -23,7 +23,7 @@ x[A B _] [A C _] [B A _] [B C _] [C A _] [C B _]x
 
 *****
 
-## Important problems of this topic.
+## Important problems of this topic
 
 *****
 
